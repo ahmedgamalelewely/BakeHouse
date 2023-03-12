@@ -4,24 +4,24 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo 'build'
-                sh "echo ${BUILD_NUMBER}"
+                echo 'hello'
+  
             }
         
         }
         stage('publish') {
             steps {
-                echo 'publish'
+                echo 'ahmed GAMAL'
             }
         }
         stage('sonarqube') {
             steps {
-                echo 'sonarqube'
+                echo 'FROM'
             }
         }
         stage('deploy') {
             steps {
-                echo 'deploy'
+                echo 'ITI'
             }
         }
     }
